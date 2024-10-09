@@ -12,7 +12,7 @@ body {
 
 :root {
     --tamanho-header: 80px;
-    --tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
+    --tamanho-banner: calc(50vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
     --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
     --tamanho-footer: 65px;
 }
@@ -104,10 +104,12 @@ body {
 
 }
 
+
 .social .container .boxes {
 
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     width: 100%;
     padding: 30px 0;
 
